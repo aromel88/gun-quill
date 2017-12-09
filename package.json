@@ -1,0 +1,19 @@
+{
+  "name": "gun-quill",
+  "version": "1.0.0",
+  "description": "Gun server for quill editor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "watch": "nodemon src/app.js"
+  },
+  "author": "Aaron Romel",
+  "license": "ISC",
+  "dependencies": {
+    "gun": "^0.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
